@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 
-from VIPMUSIC import app
+from main import app
 
 truth_api_url = "https://api.truthordarebot.xyz/v1/truth"
 dare_api_url = "https://api.truthordarebot.xyz/v1/dare"

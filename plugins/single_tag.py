@@ -5,7 +5,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus, ChatType
 from pyrogram.errors import UserNotParticipant
 
-from VIPMUSIC import app
+from main import app
 
 spam_chats = []
 

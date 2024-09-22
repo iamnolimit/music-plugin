@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 
-from VIPMUSIC import app
+from main import app
 from SafoneAPI import SafoneAPI
 
 

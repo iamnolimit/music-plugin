@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 
-from VIPMUSIC import app
+from main import app
 
 
 @app.on_message(filters.command(["FAKE", "fake"]))

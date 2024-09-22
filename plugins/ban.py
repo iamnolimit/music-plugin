@@ -14,13 +14,13 @@ from pyrogram.types import (
 from string import ascii_lowercase
 from typing import Dict, Union
 
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.core.mongo import mongodb
+from main import app
+from main.misc import SUDOERS
+from main.core.mongo import mongodb
 from utils.error import capture_err
-from VIPMUSIC.utils.keyboard import ikb
-from VIPMUSIC.utils.database import save_filter
-from VIPMUSIC.utils.functions import (
+from main.utils.keyboard import ikb
+from main.utils.database import save_filter
+from main.utils.functions import (
     extract_user,
     extract_user_and_reason,
     time_converter,
@@ -636,8 +636,8 @@ async def check_warns(_, message: Message):
 
 
 from pyrogram import filters
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
+from main import app
+from main.misc import SUDOERS
 import asyncio
 from pyrogram.errors import FloodWait
 
@@ -707,7 +707,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import UserNotParticipant, ChatAdminRequired, UserAlreadyParticipant, InviteHashExpired
 
 # Create a bot instance
-from VIPMUSIC import app 
+from main import app 
 
 @app.on_message(filters.command("unbanme"))
 async def unbanme(client, message):

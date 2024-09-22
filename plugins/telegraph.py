@@ -1,7 +1,7 @@
 import os
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from VIPMUSIC import app
+from main import app
 from TheApi import api
 
 @app.on_message(filters.command(["tgm", "tgt", "telegraph", "tl"]))

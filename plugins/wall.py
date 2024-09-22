@@ -4,7 +4,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from VIPMUSIC import app
+from main import app
 
 
 @app.on_message(filters.command(["wall", "wallpaper"]))

@@ -2,10 +2,10 @@
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from strings import get_string
-from VIPMUSIC import app
-from VIPMUSIC.utils import VIPbin
+from main import app
+from main.utils import VIPbin
 
-from VIPMUSIC.utils.database import get_assistant, get_lang
+from main.utils.database import get_assistant, get_lang
 import asyncio
 from os import getenv
 from dotenv import load_dotenv
@@ -13,7 +13,7 @@ from pyrogram import Client
 from dotenv import load_dotenv
 import config
 
-from VIPMUSIC.logging import LOGGER
+from main.logging import LOGGER
 
 
 
@@ -75,7 +75,7 @@ from pyrogram import filters
 from pyrogram.types import *
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from VIPMUSIC import app
+from main import app
 
 
 # vc on

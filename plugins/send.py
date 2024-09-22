@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors import RPCError
-from VIPMUSIC import app 
-from VIPMUSIC.misc import SUDOERS
+from main import app 
+from main.misc import SUDOERS
 @app.on_message(filters.command("send") & SUDOERS)
 async def send_message(client, message: Message):
     try:

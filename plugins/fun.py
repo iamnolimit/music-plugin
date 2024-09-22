@@ -2,7 +2,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VIPMUSIC import app
+from main import app
 
 
 @app.on_message(

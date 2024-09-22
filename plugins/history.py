@@ -5,9 +5,9 @@ from pyrogram import Client, filters
 from pyrogram.raw.functions.messages import DeleteHistory
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.core.userbot import assistants
-from VIPMUSIC.utils.database import get_client
+from main import app
+from main.core.userbot import assistants
+from main.utils.database import get_client
 
 
 @app.on_message(filters.command(["sg", "History"]))

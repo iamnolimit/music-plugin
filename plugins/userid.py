@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.enums import ParseMode
 
-from VIPMUSIC import app
+from main import app
 
 
 @app.on_message(filters.command("me"))

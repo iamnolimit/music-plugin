@@ -1,7 +1,7 @@
 from pyrogram import filters
 from TheApi import api
 
-from VIPMUSIC import app
+from main import app
 
 
 @app.on_message(filters.command(["write"]))

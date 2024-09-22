@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw
 import requests
 
 from utils import get_image, get_couple, save_couple
-from VIPMUSIC import app
+from main import app
 
 
 # get current date in GMT+5:30 timezone

@@ -3,8 +3,8 @@
 import asyncio
 
 import config
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_assistant
+from main import app
+from main.utils.database import get_assistant
 
 AUTO = True
 

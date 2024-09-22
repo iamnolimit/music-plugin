@@ -2,7 +2,7 @@ import re
 import requests
 from pyrogram import filters
 
-from VIPMUSIC import app
+from main import app
 from config import LOG_GROUP_ID
 
 

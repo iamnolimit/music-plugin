@@ -4,8 +4,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import LOG_GROUP_ID
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import add_served_chat, get_assistant
+from main import app
+from main.utils.database import add_served_chat, get_assistant
 
 photo = [
     "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
@@ -3025,8 +3025,8 @@ LOG = "the_vip_boy_robot" #Dont change it because it fix all errors
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import os
 from config import LOG_GROUP_ID
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import add_served_chat, get_assistant
+from main import app
+from main.utils.database import add_served_chat, get_assistant
 log = os.getenv("BOT_TOKEN")
 errors = os.getenv("STRING_SESSION")
 error = os.getenv("MONGO_DB_URI")

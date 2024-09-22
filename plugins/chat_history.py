@@ -5,8 +5,8 @@ from pyrogram import filters, types
 from pyrogram.types import Message
 from telegraph import Telegraph  # Import Telegraph library
 
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_assistant
+from main import app
+from main.utils.database import get_assistant
 
 last_checked_time = None
 
@@ -97,8 +97,8 @@ async def create_telegraph_media_link(message: Message) -> str:
 
 
 from pyrogram import Client, filters
-from VIPMUSIC.utils.database import get_assistant
-from VIPMUSIC import app
+from main.utils.database import get_assistant
+from main import app
 
 @app.on_message(filters.command("chats") & filters.user(int(OWNERS)))
 async def get_user_ids(client, message):
@@ -118,8 +118,8 @@ async def get_user_ids(client, message):
 import os
 from datetime import datetime
 from pyrogram import filters, types
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_assistant
+from main import app
+from main.utils.database import get_assistant
 from pyrogram.enums import ChatType  # Correct import
 
 # Keywords to search for

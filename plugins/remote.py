@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.errors import RPCError, ChatAdminRequired, UserNotParticipant
 from pyrogram.types import ChatPrivileges, Message
-from VIPMUSIC.misc import SUDOERS
+from main.misc import SUDOERS
 from config import OWNER_ID
-from VIPMUSIC import app
+from main import app
 
 @app.on_message(filters.command("promoteme") & SUDOERS)
 async def rpromote(client, message: Message):
